@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cepathalal.com</title>
+    <link rel="shortcut icon" href="assets/img/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Animasi -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=WindSong:wght@500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Satisfy&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header id="header" class="fixed-top">
+      <nav id="navHeading" class="navbar navbar-expand-lg navbar-dark navigation">
+        <div class="container">          
+          <a class="navbar-brand" href="#"><img src="assets/img/brand.png" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#beranda">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollto" href="#tentang">Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fitur">Fitur</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produk">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pemesanan">Pemesanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Jumbotron -->
+    <section id="beranda" class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 text-start text-dark align-self-center">
+            <h1 class="animate__animated animate__fadeInDown">Website Undangan Pernikahan Digital</h1>
+            <h3 class="animate__animated animate__fadeIn animate__delay-1s">Solusi undangan pernikahan kekinian yang menarik dan praktis dengan biaya yang lebih terjangkau</h3>
+            <a href="#produk" class="btn btn-primary bg-gradient me-2 animate__animated animate__fadeInLeft animate__delay-1s"><i class="bi bi-cart-plus-fill pe-2"></i></i>Pesan Sekarang</a>
+            <a href="" target="" class="btn btn-outline-primary bg-gradient animate__animated animate__fadeInRight animate__delay-1s"><i class="bi bi-play-circle-fill pe-2"></i>Lihat Demo</a>
+          </div>
+          <div class="col-lg-6 col-md-6" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+            <img src="assets/img/hero.png">
+          </div>
+        </div>
+      </div>
+      <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,20L34.3,28.3C68.6,37,137,53,206,65C274.3,77,343,83,411,75C480,67,549,43,617,41.7C685.7,40,754,60,823,68.3C891.4,77,960,73,1029,63.3C1097.1,53,1166,37,1234,25C1302.9,13,1371,7,1440,10C1508.6,13,1577,27,1646,28.3C1714.3,30,1783,20,1851,13.3C1920,7,1989,3,2057,6.7C2125.7,10,2194,20,2263,30C2331.4,40,2400,50,2469,56.7C2537.1,63,2606,67,2674,61.7C2742.9,57,2811,43,2880,45C2948.6,47,3017,63,3086,60C3154.3,57,3223,33,3291,35C3360,37,3429,63,3497,63.3C3565.7,63,3634,37,3703,28.3C3771.4,20,3840,30,3909,43.3C3977.1,57,4046,73,4114,73.3C4182.9,73,4251,57,4320,46.7C4388.6,37,4457,33,4526,31.7C4594.3,30,4663,30,4731,25C4800,20,4869,10,4903,5L4937.1,0L4937.1,100L4902.9,100C4868.6,100,4800,100,4731,100C4662.9,100,4594,100,4526,100C4457.1,100,4389,100,4320,100C4251.4,100,4183,100,4114,100C4045.7,100,3977,100,3909,100C3840,100,3771,100,3703,100C3634.3,100,3566,100,3497,100C3428.6,100,3360,100,3291,100C3222.9,100,3154,100,3086,100C3017.1,100,2949,100,2880,100C2811.4,100,2743,100,2674,100C2605.7,100,2537,100,2469,100C2400,100,2331,100,2263,100C2194.3,100,2126,100,2057,100C1988.6,100,1920,100,1851,100C1782.9,100,1714,100,1646,100C1577.1,100,1509,100,1440,100C1371.4,100,1303,100,1234,100C1165.7,100,1097,100,1029,100C960,100,891,100,823,100C754.3,100,686,100,617,100C548.6,100,480,100,411,100C342.9,100,274,100,206,100C137.1,100,69,100,34,100L0,100Z"></path></svg>
+    </section>
+    <!-- Jumbotron End -->
+
+    <!-- Tentang -->
+    <section id="tentang" class="tentang">
+      <div class="container">
+        <div class="row mb-2 pb-2">
+          <div class="col-lg-6 col-md-6" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+            <img src="assets/img/about.png">
+          </div>
+          <div class="col-lg-6 col-md-6 align-self-center" data-aos="fade-up"  data-aos-delay="50" data-aos-duration="1000">
+            <h2>Tentang Kami</h2>
+            <p>Situs penyedia jasa pembuatan undangan digital yang super keren dengan berbagai macam fitur siap pakai untuk membantu, mengabadikan dan membuat undangan pernikahan anda semakin tampil berbeda dan menarik pada moment bahagia pernikahan anda.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center d-flex mt-2 pt-2">
+          <div class="col-lg-6 col-md-6 order-md-2" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+            <img src="assets/img/why.png">
+          </div>
+          <div class="col-lg-6 col-md-6 align-self-center order-md-1" data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000">
+            <h2>Mengapa Memilih Undangan Digital</h2>
+            <ul>
+              <li><i class="bi bi-check-square-fill me-2"></i>Hemat Biaya Cetak Undangan</li>
+              <li><i class="bi bi-check-square-fill me-2"></i>Ramah Lingkungan</li>
+              <li><i class="bi bi-check-square-fill me-2"></i>Praktis</li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tentang End -->
+
+    <!-- Fitur -->
+    <section id="fitur" class="fitur">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-md-8" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+            <h2>Fitur Website Yang Menarik</h2>
+            <p>Berbagai fitur menarik yang dapat anda gunakan untuk mempercantik dan melengkapi informasi
+              di website undangan pernikahan anda.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box" data-aos="flip-down" data-aos-duration="1000">
+              <i class="bi bi-link-45deg"></i>
+              <div class="col">
+              <h3>Free Subdomain</h3>
+              <p>Mendapatkan subdomain, seperti <strong>reydinda.cepathalal.com</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box" data-aos="flip-down"  data-aos-duration="1000">
+              <i class="bi bi-gear-fill"></i>
+              <div class="col">
+              <h3>Support Custom Domain</h3>
+              <p>Bisa tampil unik dengan domain anda sendiri seperti <strong>reydinda.com</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box" data-aos="flip-down"  data-aos-duration="1000">
+              <i class="bi bi-laptop"></i>
+              <div class="col">
+              <h3>Banyak Pilihan Design</h3>
+              <p>Bebas pilih design yang sesuai dengan kesukaan anda</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box" data-aos="flip-down" data-aos-duration="1000">
+              <i class="bi bi-calendar-week"></i>
+              <div class="col">
+              <h3>Informasi Acara</h3>
+              <p>Menampilkan jadwal acara pernikahan anda seperti akad dan resepsi</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box" data-aos="flip-down" data-aos-duration="1000">
+              <i class="bi bi-people"></i>
+              <div class="col">
+              <h3>Informasi Mempelai</h3>
+              <p>Memperkenalkan profil pasangan diwebsite pernikahan anda</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box" data-aos="flip-down" data-aos-duration="1000">
+              <i class="bi bi-heart"></i>
+              <div class="col">
+              <h3>Cerita Cinta</h3>
+              <p>Membagikan kisah perjalanan cinta anda dan pasangan</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box" data-aos="flip-down" data-aos-duration="1000">
+              <i class="bi bi-images"></i>
+              <div class="col">
+              <h3>Galeri Foto dan Video</h3>
+              <p>Memaksimalkan moment kebahagiaan anda melalui Foto dan Video</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box" data-aos="flip-down" data-aos-duration="1000">
+              <i class="bi bi-music-note-beamed"></i>
+              <div class="col">
+              <h3>Backsound Music</h3>
+              <p>Menjadikan website pernikahan anda lebih spesial dengan diiringi music</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box" data-aos="flip-down" data-aos-duration="1000">
+              <i class="bi bi-geo-alt-fill"></i>
+              <div class="col">
+              <h3>Peta Lokasi</h3>
+              <p>Mempermudah tamu undangan menemukan lokasi acara pernikahan</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box" data-aos="flip-down" data-aos-duration="1000">
+              <i class="bi bi-stopwatch"></i>
+              <div class="col">
+              <h3>Countdown</h3>
+              <p>Mengingatkan jadwal acara pernikahan anda dengan waktu hitung mundur</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box" data-aos="flip-down" data-aos-duration="1000">
+              <i class="bi bi-chat-square-text"></i>
+              <div class="col">
+              <h3>Ucapan & Doa</h3>
+              <p>Menampilkan ucapan & doa dari tamu undangan</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box" data-aos="flip-down" data-aos-duration="1000">
+              <i class="bi bi-book"></i>
+              <div class="col">
+              <h3>RSVP</h3>
+              <p>Mengkonfirmasi jumlah kehadiran tamu undangan pernikahan anda</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-3">
+            <div class="box"  data-aos="flip-down" data-aos-duration="1000">
+              <i class="bi bi-gift"></i>
+              <div class="col">
+              <h3>Gift Angpao Digital</h3>
+              <p>Memudahkan tamu undangan memberikan hadiah secara digital</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Fitur End -->
+
+    <!-- Produk -->
+    <section id="produk" class="produk">
+      <div class="container">
+
+        <div class="row text-center justify-content-center">
+          <div class="col-md-8" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+            <h2>Produk Kami</h2>
+            <p>Pilihan paket yang ada di produk kami pastinya dengan harga terjangkau dan sesuai kebutuhan anda.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="box" data-aos="flip-left" data-aos-duration="1000">
+              <h3>Basic</h3>
+              <h5><sup>Rp</sup>100.000<span></span></h5>
+              <h4><sup>Rp</sup>65.000<span></span></h4>
+              <ul>
+                <li>Design Basic</li>
+                <li>Sub Domain .cepathalal.com</li>
+                <li>Informasi acara dan profil mempelai</li>
+                <li>Galeri foto maksimal 4 item</li>
+                <li>Peta lokasi</li>
+                <li>Countdown</li>
+                <li>Masa aktif 3 bulan</li>
+                <li class="na">Backsound Music</li>
+                <li class="na">RSVP</li>
+                <li class="na">Gift Angpao Digital</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Pesan Sekarang</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box" data-aos="flip-left" data-aos-duration="1000">
+              <h3>Standard</h3>
+              <h5><sup>Rp</sup>175.000<span></span></h5>
+              <h4><sup>Rp</sup>125.000<span></span></h4>
+              <ul>
+                <li>Design Standard</li>
+                <li>Sub Domain .cepathalal.com</li>
+                <li>Informasi acara dan profil mempelai</li>
+                <li>Galeri foto maksimal 10 item</li>
+                <li>Peta lokasi</li>
+                <li>Countdown</li>
+                <li>Masa aktif 6 bulan</li>
+                <li>Backsound Music</li>
+                <li>RSVP</li>
+                <li>Gift Angpao Digital</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Pesan Sekarang</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <div class="box recommended" data-aos="flip-left" data-aos-duration="1000">
+              <h3>Premium</h3>
+              <h5><sup>Rp</sup>750.000<span></span></h5>
+              <h4><sup>Rp</sup>500.000<span></span></h4>
+              <ul class="text-white">
+                <li>Design Premium</li>
+                <li>Custom Domain .com</li>
+                <li>Semua fitur yang ada di paket standard</li>
+                <li>Galeri foto tanpa batas maksimal</li>
+                <li>Masa aktif 12 bulan</li>
+                <li>Love Story</li>
+                <li>Galeri video 1 item</li>
+                <li>Video undangan</li>
+                <li>Full support</li>
+                <li>&nbsp</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy bg-gradient">Pesan Sekarang</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(234, 234, 234, 0.25098039215686274)" offset="0%"></stop><stop stop-color="rgba(234, 234, 234, 0.25098039215686274)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,10L21.8,15C43.6,20,87,30,131,33.3C174.5,37,218,33,262,26.7C305.5,20,349,10,393,18.3C436.4,27,480,53,524,63.3C567.3,73,611,67,655,55C698.2,43,742,27,785,25C829.1,23,873,37,916,43.3C960,50,1004,50,1047,53.3C1090.9,57,1135,63,1178,58.3C1221.8,53,1265,37,1309,35C1352.7,33,1396,47,1440,45C1483.6,43,1527,27,1571,26.7C1614.5,27,1658,43,1702,45C1745.5,47,1789,33,1833,36.7C1876.4,40,1920,60,1964,65C2007.3,70,2051,60,2095,51.7C2138.2,43,2182,37,2225,31.7C2269.1,27,2313,23,2356,33.3C2400,43,2444,67,2487,70C2530.9,73,2575,57,2618,43.3C2661.8,30,2705,20,2749,23.3C2792.7,27,2836,43,2880,45C2923.6,47,2967,33,3011,25C3054.5,17,3098,13,3120,11.7L3141.8,10L3141.8,100L3120,100C3098.2,100,3055,100,3011,100C2967.3,100,2924,100,2880,100C2836.4,100,2793,100,2749,100C2705.5,100,2662,100,2618,100C2574.5,100,2531,100,2487,100C2443.6,100,2400,100,2356,100C2312.7,100,2269,100,2225,100C2181.8,100,2138,100,2095,100C2050.9,100,2007,100,1964,100C1920,100,1876,100,1833,100C1789.1,100,1745,100,1702,100C1658.2,100,1615,100,1571,100C1527.3,100,1484,100,1440,100C1396.4,100,1353,100,1309,100C1265.5,100,1222,100,1178,100C1134.5,100,1091,100,1047,100C1003.6,100,960,100,916,100C872.7,100,829,100,785,100C741.8,100,698,100,655,100C610.9,100,567,100,524,100C480,100,436,100,393,100C349.1,100,305,100,262,100C218.2,100,175,100,131,100C87.3,100,44,100,22,100L0,100Z"></path></svg>
+    </section>
+    <!-- Produk End -->
+
+    <!-- Pemesanan -->
+    <section id="pemesanan" class="pemesanan">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-md-8" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+            <h2>Cara Pemesanan</h2>
+            <p>Pesan website undangan pernikahan anda dengan mudah dan cepat melalui 4 langkah saja.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="box" data-aos="fade-up"  data-aos-duration="1000">
+              <img src="assets/img/pemesanan-pilihproduk.png" class="rounded mx-auto d-block" alt="">
+              <h5>Pilih Produk dan Tema</h5>
+              <p>Pilih paket produk dan tema sesuai dengan keinginan anda</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="box" data-aos="fade-up"  data-aos-duration="1000">
+              <img src="assets/img/pemesanan-info.png" class="rounded mx-auto d-block" alt="">
+              <h5>Siapkan Informasi Pernikahan</h5>
+              <p>Siapkan detail informasi pernikahan anda seperti profil, informasi acara, foto dll</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="box" data-aos="fade-up"  data-aos-duration="1000">
+              <img src="assets/img/pemesanan-wa.png" class="rounded mx-auto d-block" alt="whatsapp">
+              <h5>Hubungi Kami</h5>
+              <p>Chat kami melalui <a href="">WhatsApp</a> untuk melakukan pemesanan dan kirimkan detail informasi pernikahan anda</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-2">
+            <div class="box" data-aos="fade-up"  data-aos-duration="1000">
+              <img src="assets/img/pemesanan-bayar.png" class="rounded mx-auto d-block" alt="pembayaran">
+              <h5>Pembayaran</h5>
+              <p>Lakukan pembayaran untuk proses pengerjaan</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row pb-5" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="col justify-content-center text-center">
+            <a href=" https://wa.me" target="_blank" class="btn btn-outline-primary bg-gradient ps-4 pe-4 pt-2 pb-2 mt-4 fs-6"><i class="bi bi-whatsapp pe-2"></i>Pesan Sekarang</a>
+          </div>
+        </div> -->
+      </div>
+      <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"></linearGradient></defs><path fill="#fff" style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,0L20,13.3C40,27,80,53,120,65C160,77,200,73,240,63.3C280,53,320,37,360,30C400,23,440,27,480,36.7C520,47,560,63,600,60C640,57,680,33,720,26.7C760,20,800,30,840,28.3C880,27,920,13,960,15C1000,17,1040,33,1080,45C1120,57,1160,63,1200,70C1240,77,1280,83,1320,71.7C1360,60,1400,30,1440,23.3C1480,17,1520,33,1560,43.3C1600,53,1640,57,1680,56.7C1720,57,1760,53,1800,48.3C1840,43,1880,37,1920,41.7C1960,47,2000,63,2040,73.3C2080,83,2120,87,2160,80C2200,73,2240,57,2280,43.3C2320,30,2360,20,2400,28.3C2440,37,2480,63,2520,75C2560,87,2600,83,2640,70C2680,57,2720,33,2760,25C2800,17,2840,23,2860,26.7L2880,30L2880,100L2860,100C2840,100,2800,100,2760,100C2720,100,2680,100,2640,100C2600,100,2560,100,2520,100C2480,100,2440,100,2400,100C2360,100,2320,100,2280,100C2240,100,2200,100,2160,100C2120,100,2080,100,2040,100C2000,100,1960,100,1920,100C1880,100,1840,100,1800,100C1760,100,1720,100,1680,100C1640,100,1600,100,1560,100C1520,100,1480,100,1440,100C1400,100,1360,100,1320,100C1280,100,1240,100,1200,100C1160,100,1120,100,1080,100C1040,100,1000,100,960,100C920,100,880,100,840,100C800,100,760,100,720,100C680,100,640,100,600,100C560,100,520,100,480,100C440,100,400,100,360,100C320,100,280,100,240,100C200,100,160,100,120,100C80,100,40,100,20,100L0,100Z"></path></svg>
+      
+    </section>
+    <!-- Pemesanan End -->
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-md-8 mb-2" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+            <h2>Pertanyaan & Jawaban</h2>
+            <p>Jika anda memiliki pertanyaan yang tidak masuk dalam daftar dibawah ini jangan ragu untuk <a href="">menghubungi</a> kami.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-10" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+            <ul class="faq-list">
+
+              <li>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Berapa lama proses pembuatannya? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Proses pembuatan kami usahakan maksimal 1 x 24 jam ya kak.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Revisi berapa kali? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Revisi sepuasnya kak, jika tiba-tiba ada perubahan tanggal atau tempat lokasi, langsung hubungi kami saja.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Pertanyaan Ketiga? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit temporibus ipsa minus tenetur sed adipisci nostrum necessitatibus reprehenderit, voluptatum molestiae commodi sint sapiente officia fugit quod? Aperiam, mollitia omnis.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Pertanyaan Keempat? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit temporibus ipsa minus tenetur sed adipisci nostrum necessitatibus reprehenderit, voluptatum molestiae commodi sint sapiente officia fugit quod? Aperiam, mollitia omnis.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+      </div>
+
+      </div>
+    </section>
+    <!-- FAQ End -->
+
+    <!-- Kontak -->
+    <section id="kontak" class="kontak">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-4 col-md-6">
+            <h4 class="brand mb-2">Cepat Halal</h4>
+            <p>Situs penyedia jasa pembuatan undangan digital yang super keren dengan berbagai macam fitur siap pakai untuk membantu, mengabadikan dan membuat undangan pernikahan anda semakin tampil berbeda dan menarik pada moment bahagia pernikahan anda.</p>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h4 class="mb-2">Tautan</h4>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#produk">Produk</a></li>
+            <li><a href="#fitur">Fitur</a></li>
+            <li><a href="#pemesanan">Pemesanan</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+            <li>&nbsp;</li>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="mb-2">Kontak</h4>
+            <h6><i class="bi bi-geo-alt fs-5"></i> Kota Tangerang</h6>
+            <h6><i class="bi bi-phone fs-5"></i> WhatsApp : +62xxxxxxxx</h6>
+            <h6><i class="bi bi-phone fs-5"></i> Admin 2 : +62xxxxxxxx</h6>
+            <p></p>
+            <div class="sosmed col mt-4">
+              <a href=""><i class="bi bi-facebook me-3 fs-2"></i></a>
+              <a href=""><i class="bi bi-instagram me-3 fs-2"></i></a>
+              <a href=""><i class="bi bi-twitter me-3 fs-2"></i></a>
+              <a href=""><i class="bi bi-envelope me-3 fs-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,160L80,170.7C160,181,320,203,480,218.7C640,235,800,245,960,240C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+      </svg>
+    </section>
+    <!-- Kontak End -->
+
+    <!-- Footer -->
+
+    <footer class="text-dark text-center pb-4">
+      <p>&copy; 2021. Created with <i class="bi bi-suit-heart-fill" style="color: #e74343"></i> by <a href="http://cepathalal.com" target="_blank">cepathalal.com</a></p>
+    </footer>
+    <!-- Footer End -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+  </body>
+</html>
